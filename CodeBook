@@ -1,0 +1,22 @@
+Summary:
+This file describes the variables & data used on the week 4 Getting and Cleaning Data Coursera course assignment, as well as the data transformation performed.
+
+Variables:
+
+(1) x_test, y_test, subject_test, x_train, y_train, subject_train = data from downloaded files.
+
+(2) x_data, y_data, subject_data = dataset that merge previously downloaded files for further analysis.
+
+(3) Full_Data = dataset that merges all final data.
+
+(4) averages = contains the average of each variable for each activity and each subject, which are later saved into averagesOutputData.txt.
+
+Data Transformations:
+
+(1) rbind to merge similar data.
+
+(2) Extract the columns with mean and std measures. Assign them the "right" names from the features.txt file.
+
+(3) Add also relevant names to the columns in the dataset ("Activity" & "Subject").
+
+(4) Generate a dataset combining the three working ones, which is later used to create the output file averagesOutputdata.txt.
