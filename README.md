@@ -1,8 +1,12 @@
 # GettingDataAssignment
 In this GitHub repository you will find the R code and documentation for the final assignment of "Getting and Cleaning Data" Coursera course.
+
 Files Available:
+
 (1) run_analysis.R: code to do the five steps described as part of the assignment. The code itself downloads the .zip files, unzip it, and works through the different steps, creating a final output file named "averagesOutputData.txt".
+
 (2) averagesOutputData.txt: output data of the step # 5 of the assignment.
+
 (3) CodeBook.md: provides details of the variables, data and their transformations. 
 
 Assignment details:
